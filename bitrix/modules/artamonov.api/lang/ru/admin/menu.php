@@ -1,6 +1,6 @@
 <?php
 $MESS['API_MODULE_ID'] = 'artamonov.api';
-$MESS['API_MODULE_NAME'] = 'RESTful API';
-$MESS['SECURITY'] = 'Áåçîïàñíîñòü';
-$MESS['SUPPORT'] = 'Ïîääåðæêà';
-$MESS['SETTINGS'] = 'Íàñòðîéêè';
+$MESS['API_MODULE_NAME'] = 'REST API';
+$MESS['SECURITY'] = 'Ð‘ÐµÐ·Ð¾Ð¿Ð°ÑÐ½Ð¾ÑÑ‚ÑŒ';
+$MESS['SUPPORT'] = 'ÐŸÐ¾Ð´Ð´ÐµÑ€Ð¶ÐºÐ°';
+$MESS['SETTINGS'] = 'ÐÐ°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸';
