@@ -54,8 +54,8 @@ class Options
     private function extractOptions($ar)
     {
         $arResult = [];
-        // Checkbox
         if ($ar['form'] == 'api-security') {
+            // Checkbox
             if (!isset($ar['OPTION_ONLY_HTTPS_EXCHANGE'])) {
                 $ar['OPTION_ONLY_HTTPS_EXCHANGE'] = 'N';
             }
@@ -68,12 +68,12 @@ class Options
             if (!isset($ar['OPTION_USE_CHECK_USER_GROUP'])) {
                 $ar['OPTION_USE_CHECK_USER_GROUP'] = 'N';
             }
+            // Array
+            $ar['OPTION_GROUP_LIST'] = (isset($ar['OPTION_GROUP_LIST'])) ? implode('|', $ar['OPTION_GROUP_LIST']) : '';
         }
         if (isset($ar['OPTION_OWN_CONTROLLERS_PATH'])) {
             $ar['OPTION_OWN_CONTROLLERS_PATH'] = trim($ar['OPTION_OWN_CONTROLLERS_PATH'], '/');
         }
-        // Array
-        $ar['OPTION_GROUP_LIST'] = (isset($ar['OPTION_GROUP_LIST'])) ? implode('|', $ar['OPTION_GROUP_LIST']) : '';
         // Update User field for token
         $this->userFieldToken($ar['OPTION_USE_AUTH_TOKEN']);
         foreach ($ar as $k => $v) {

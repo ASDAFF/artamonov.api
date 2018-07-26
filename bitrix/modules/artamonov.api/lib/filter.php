@@ -68,7 +68,8 @@ class Filter
         if ($this->getParameter()->getValue('USE_AUTH_TOKEN') == 'Y') {
             $this->access = false;
             if ($token = $_SERVER['HTTP_AUTHORIZATION_TOKEN']) {
-                $keyword = str_replace(' ', '', $this->getParameter()->getValue('TOKEN_KEYWORD')) . ':';
+                $keyword = str_replace(' ', '', $this->getParameter()->getValue('TOKEN_KEYWORD'));
+                if ($keyword) $keyword .= ':';
                 $checkKeyword = substr($token, 0, strlen($keyword));
                 if ($checkKeyword != $keyword) {
                     $this->access = false;
