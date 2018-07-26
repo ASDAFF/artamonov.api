@@ -1,3 +1,3 @@
 <?php
-$MESS['API_UNINSTALL_TITLE'] = 'Óäàëåíèå ìîäóëÿ';
-$MESS['API_UNINSTALL_MESSAGE'] = 'Ìîäóëü "RESTful API" óñïåøíî óäàë¸í';
+$MESS['API_UNINSTALL_TITLE'] = 'Ð£Ð´Ð°Ð»ÐµÐ½Ð¸Ðµ Ð¼Ð¾Ð´ÑƒÐ»Ñ';
+$MESS['API_UNINSTALL_MESSAGE'] = 'ÐœÐ¾Ð´ÑƒÐ»ÑŒ "REST API" ÑƒÑÐ¿ÐµÑˆÐ½Ð¾ ÑƒÐ´Ð°Ð»Ñ‘Ð½';

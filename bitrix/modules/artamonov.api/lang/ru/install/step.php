@@ -1,3 +1,3 @@
 <?php
-$MESS['API_INSTALL_TITLE'] = 'Установка модуля';
-$MESS['API_INSTALL_MESSAGE'] = 'Модуль "RESTful API" успешно установлен<br>Не забудьте прописать конструкцию в файл /bitrix/php_interface/init.php';
+$MESS['API_INSTALL_TITLE'] = 'РЈСЃС‚Р°РЅРѕРІРєР° РјРѕРґСѓР»СЏ';
+$MESS['API_INSTALL_MESSAGE'] = 'РњРѕРґСѓР»СЊ "REST API" СѓСЃРїРµС€РЅРѕ СѓСЃС‚Р°РЅРѕРІР»РµРЅ<br>РќРµ Р·Р°Р±СѓРґСЊС‚Рµ РїСЂРѕРїРёСЃР°С‚СЊ РєРѕРЅСЃС‚СЂСѓРєС†РёСЋ РІ С„Р°Р№Р» /bitrix/php_interface/init.php';
