@@ -1,7 +1,7 @@
 {
     "name": "artamonov/api",
-    "version": "3.5.0",
-    "description": "RESTful API module for Bitrix",
+    "version": "3.5.1",
+    "description": "REST API module for Bitrix",
     "keywords": ["restful", "rest", "api", "bitrix"],
     "homepage": "https://github.com/ArtamonovDenis/artamonov.api",
     "license": "MIT",
