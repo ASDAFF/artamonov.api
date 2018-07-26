@@ -1,5 +1,5 @@
 <?php
 $MESS = [
-    'CLASS_NOT_FOUND' => 'Нет методов для обработки: #OBJECT#',
-    'METHOD_NOT_FOUND' => '#OBJECT# не может быть обработан методом #METHOD#'
+    'CLASS_NOT_FOUND' => 'РќРµС‚ РјРµС‚РѕРґРѕРІ РґР»СЏ РѕР±СЂР°Р±РѕС‚РєРё: #OBJECT#',
+    'METHOD_NOT_FOUND' => '#OBJECT# РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РѕР±СЂР°Р±РѕС‚Р°РЅ РјРµС‚РѕРґРѕРј #METHOD#'
 ];
