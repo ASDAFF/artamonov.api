@@ -6,6 +6,10 @@
 
 ## Модуль RESTful API
 
+Внимание
+1. С начала 2019 года поддержка данного модуля будет прекращена.
+2. Весь новый функционал будет добавляться в новую версию модуля [REST API Business Edition](http://marketplace.1c-bitrix.ru/solutions/artamonov.rest/).
+
 [Документация](https://github.com/ArtamonovDenis/artamonov.api/wiki)
 
 [Маркетплейс 1С-Битрикс](http://marketplace.1c-bitrix.ru/solutions/artamonov.api/)
