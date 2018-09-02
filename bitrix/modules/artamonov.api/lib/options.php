@@ -5,7 +5,6 @@ namespace Artamonov\Api;
 
 
 use Bitrix\Main\Config\Option;
-use Bitrix\Main\Context;
 use CUserTypeEntity;
 use CUser;
 
@@ -106,7 +105,7 @@ class Options
 
     private function getSiteId()
     {
-        return (Context::getCurrent()->getSite()) ? Context::getCurrent()->getSite() : 's1';
+        return '';
     }
 
     public function getUserFieldCodeApiToken()
